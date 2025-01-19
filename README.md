@@ -26,6 +26,10 @@ We have data for the period from 1997 up to 2020 that has been split into:
 - **Training period**: 1997-2016
 - **Validation period**: 2016-2018
 - **Testing period**: 2018-2020
+- **Opening Price**: First price of the stock when the market opens.
+- **Closing Price**: Last price of the stock when the market closes.
+- **Bearish Day**: A trading day where the stock's closing price is lower than its opening price, indicating a downward trend and negative market sentiment.
+- **Bullish Day**: A trading day where the stock's closing price is higher than its opening price, reflecting an upward trend and positive market sentiment.
 
 Each dataset has the following 7 columns:
 - **Date**: in format YYYY-MM-DD
