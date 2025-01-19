@@ -1,4 +1,4 @@
-# Jupyter Notebook
+# Jupyter Notebooks
 
 This folder contains the notebooks of the project I'm working on, including:
 - `hypothesis_testing.ipynb`: A hypothesis test is conducted to assess the presence of significant trends in the stock's price direction.
