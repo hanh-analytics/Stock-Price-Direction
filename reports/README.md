@@ -34,6 +34,5 @@ Each section contains a detailed explanation of the methods, tools, and results:
 - **`dashboard.md`**: Insights of the  stock trends and patterns.
 - **`hypothesis_classification.md`**: Model development, tuning process, and evaluation results.
 
-Feel free to explore these reports for a comprehensive understanding of the project 🔍 
+Feel free to explore these reports for a comprehensive understanding of the project 🔍
 
----
