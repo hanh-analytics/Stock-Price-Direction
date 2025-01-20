@@ -9,7 +9,7 @@
    - **Features**: Features include moving average over 7 days and 30 days, current price direction, price range, closing price, high, low, volume, and other financial indicators.
    - **Preprocessing**:
      - **Handling Missing Values**: Missing values in the columns of test set were imputed using the means value of the columns.
-     - **Label Encoding**: To test whether the closing price was higher than the open price, we added one column named `Target` with labels encoded `0` is `False` and `1` is `True.
+     - **Label Encoding**: To test whether the closing price was higher than the open price, we added one column named `Target` with labels encoded `0` is `False` and `1` is `True`.
      - **Time-Series Split**: Since the assignments were given by the recruiter, the datasets were ensured to not have data leakage from the future into the training set. 
 
 ## 3. **Model Selection**
