@@ -26,8 +26,6 @@ This folder contains detailed reports, insights, and explanations for the stock 
      - Perform hyperparameter tuning to optimize model performance.
    - **Outcome**: Final tuned Gradient Boosting model with insights into prediction accuracy.
 
----
-
 ### How to Navigate
 Each section contains a detailed explanation of the methods, tools, and results:
 - **`hypothesis_testing.md`**: Statistical testing methods and results.
