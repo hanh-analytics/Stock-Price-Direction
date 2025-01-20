@@ -18,7 +18,7 @@
 
 ## 4. **Model Training and Evaluation**
    - **Training Process**: The models were trained using the training set, with hyperparameters optimized via grid search (for logistic regression) and random search(for decision tree, random forest, and gradient boosting) and 5-fold cross-validation.
-   - **Metrics Used**: "The models were evaluated using the ROC-AUC score. The AUC-ROC score was 0.53, indicating that its predictive power is only slightly better than random guessing (AUC = 0.5).
+   - **Metrics Used**: The models were evaluated using the ROC-AUC score. The AUC-ROC score was 0.53, indicating that its predictive power is only slightly better than random guessing (AUC = 0.5).
 
 ## 5. **Results Interpretation**
    - **Model Performance**: While the Gradient Boosting model was the best performer, its AUC score of 0.5238 suggests that it does not provide a reliable method for predicting daily price direction.
