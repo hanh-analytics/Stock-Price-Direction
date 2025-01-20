@@ -32,7 +32,7 @@ This folder contains detailed reports, insights, and explanations for the stock 
 Each section contains a detailed explanation of the methods, tools, and results:
 - **`hypothesis_testing.md`**: Statistical testing methods and results.
 - **`dashboard.md`**: Insights of the  stock trends and patterns.
-- **`hypothesis_classification.md`**: Model development, tuning process, and evaluation results.
+- **`binary_classification.md`**: Model development, tuning process, and evaluation results.
 
 Feel free to explore these reports for a comprehensive understanding of the project 🔍
 
