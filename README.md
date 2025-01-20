@@ -1,6 +1,8 @@
 # Stock Price Direction 🧮
 
-This project focuses on predicting the day-to-day price direction of Amazon.com, Inc. stock. Rather than forecasting the exact stock price, the objective is to classify whether the next day’s closing price will be higher or lower than the opening price.
+_This data project has been used as a take-home assignment in the recruitment process for the data science positions at NeuroTrade. The source of this project was gathered from [StrataScratch.com](https://www.stratascratch.com/)_
+
+This project focuses on predicting the day-to-day price direction of Amazon.com, Inc. stock. Rather than forecasting the exact stock price, the objective is to classify whether the next day’s closing price will be higher or lower than the opening price. Furthermore, hypothesis testing and dashboard were created to find more helpful insights of the stock market. 
 
 ## Hypothesis Testing
 Hypothesis testing is used to evaluate the significance of various factors influencing the stock price direction. By performing statistical tests on features such as volume, opening price, and moving averages, we determine whether these factors are statistically significant in predicting the next day's stock movement. This analysis ensures that the selected features are reliable for the model and that the observed patterns are not due to random chance.
@@ -122,7 +124,8 @@ The data files are available in:
 
 
 ## Results
-The classification model achieved an AUC score of ? on test data.
+- Contributed by both the binary classification model and hypothesis testing, there is no strong or clear trend in the daily price direction of the stock. 
+- Further insights of the stock market, please visit the folder `report/`
 
 ## Future Improvements
 - Incorporating additional financial indicators and market sentiment analysis.
@@ -144,6 +147,3 @@ GitHub: [https://github.com/hanh-analytics](https://github.com/hanh-analytics)
 
 Thank you for exploring the **Prediction of Stock Price Direction** project!
 
----
-
-This merged README includes both the general project description and the specific data details. You can replace placeholders like `[insert accuracy]` and update sections as needed. Let me know if you need further adjustments!
