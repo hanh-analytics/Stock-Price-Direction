@@ -8,7 +8,9 @@
    - **Dataset**: We have data for the period from 1997 up to year 2020 that we have split that into training (1997-2016), validation (2016-2018) and testing (2018-2020) periods. The data is available in the AMZN_train.csv, AMZN_val.csv and AMZN_test.csv files, respectively.
    - **Features**: Features include moving average over 7 days and 30 days, current price direction, price range, closing price, high, low, volume, and other financial indicators.
    - **Preprocessing**:
-     - **Handling Missing Values**: Missing values in the columns of test set were imputed using the means value of the columns.  
+     - **Handling Missing Values**: Missing values in the columns of test set were imputed using the means value of the columns.
+     - **Label Encoding**: To test whether the closing price was higher than the open price, we added one column named `Target` with labels encoded `0` is `False` and `1` is `True.
+     - **Time-Series Split**: Since the assignments were given by the recruiter, the datasets were ensured to not have data leakage from the future into the training set. 
 
 ## 3. **Model Selection**
    - **Algorithms Used**: Mention the classification algorithms used (e.g., "The model was trained using logistic regression, decision trees, and random forests").
