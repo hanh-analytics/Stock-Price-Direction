@@ -7,12 +7,8 @@ Hypothesis testing plays a critical role in this project by evaluating whether s
 
 The specific codes for each value is demonstrated in the Jupyter Notebook [Hypothesis_testing.ipynb](https://github.com/hanh-analytics/Stock-Price-Direction/blob/d36fd13eeac1ce27aeb7b8d59c052a73d1f12694/notebooks/hypothesis_testing.ipynb)
 
----
-
 ## **2. Problem Definition**
 This analysis seeks to determine if there is an inherent directional bias in Amazon's stock price. Specifically, we evaluate whether the proportion of days where the closing price exceeds the opening price deviates significantly from 50%.
-
----
 
 ## **3. Define the Hypotheses**
 - **Null Hypothesis $H_0$:** The proportion of days where the closing price is higher than the opening price (*p*) is equal to 0.50 (*p* = 0.50).
@@ -21,8 +17,6 @@ This analysis seeks to determine if there is an inherent directional bias in Ama
 This is a two-tailed test since we are interested in deviations in both directions. 
 
 The hypothesis test serves as a preliminary step to evaluate whether there is a significant trend in the stock price direction. Identifying such trends ensures that the classification model is built on meaningful patterns, potentially increasing its predictive power.
-
----
 
 ## **4. Data Preparation**
 1. **Dataset Overview:**
@@ -34,8 +28,6 @@ The hypothesis test serves as a preliminary step to evaluate whether there is a 
 3. **Descriptive Statistics:**
    - Provide summary statistics for Open and Close prices.
    - Compute the proportion of days where Close > Open.
-
----
 
 ## **5. Methodology**
 1. **Statistical Test:**
@@ -55,8 +47,6 @@ $$
 Where:
 $\hat{p}$: Sample proportion, $p_0$: Hypothesized population proportion (0.50), $n$: Sample size.
 
----
-
 ## **6. Hypothesis Testing Execution**
 1. Calculate the sample proportion $\hat{p}$.
 2. Compute the z-statistic using the formula.
@@ -67,8 +57,6 @@ $\hat{p}$: Sample proportion, $p_0$: Hypothesized population proportion (0.50), 
 
 Include code snippets and visualizations (e.g., a histogram of price direction proportions).
 
----
-
 ## **7. Results and Interpretation**
 - Report the z-statistic and p-value.
 - Indicate whether the null hypothesis is rejected.
@@ -76,13 +64,9 @@ Include code snippets and visualizations (e.g., a histogram of price direction p
   - If $H_0$ is rejected, there is evidence of a significant directional bias in the stock price.
   - If $H_0$ is not rejected, the stock price direction appears random.
 
----
-
 ## **8. Limitations and Assumptions**
 - Sample size limitations.
 - Assumption of independent daily returns may not hold due to market trends or external factors.
-
----
 
 ## **9. Conclusion**
 
