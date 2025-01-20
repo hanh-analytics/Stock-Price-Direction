@@ -102,24 +102,19 @@ The data files are available in:
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-4. **Install the required packages**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-5. **Launch Jupyter Notebook**:
+4. **Launch Jupyter Notebook**:
     ```bash
     jupyter notebook
     ```
     - This will open Jupyter in your default web browser.
 
-6. **Open the notebook files**:
+5. **Open the notebook files**:
     - Open the relevant notebooks from the `notebooks/` folder. For example:
       - `notebooks/binary_classification.ipynb` for model development.
       - `notebooks/dashboard.ipynb` for creating the dashboard.
       - `notebooks/hypothesis_testing.ipynb` for hypothesis testing.
 
-7. **Run the cells in the notebook**:
+6. **Run the cells in the notebook**:
     - Execute the cells one by one in Jupyter to perform data preprocessing, model training, hypothesis testing, and dashboard creation.
 
 
