@@ -1,66 +1,75 @@
-# **Dashboard Report: Predicting Stock Price Movements – Insights and Trends**
+# **Stock Price Dashboard Report: Comprehensive Analysis of Market Trends**  
 
-### 1. **Introduction**
-   - **Purpose of the Dashboard**: 
-     - Describe the objective of the dashboard (e.g., "This dashboard provides a comprehensive view of the predictions made by our machine learning model to determine whether the next day's closing price of Amazon (AMZN) will be higher than its opening price.")
-     - Briefly introduce the model's purpose and target variable (e.g., binary classification: `1` for price increase, `0` for no increase).
-   - **Target Audience**: 
-     - Identify who will benefit from the dashboard (e.g., "This dashboard is designed for analysts, stakeholders, and data scientists to track model performance and gain insights into market behavior patterns.").
+## **1. Introduction**  
+- **Purpose of the Report**:  
+   - This report examines stock price trends and trading patterns through visualizations and metrics provided by the dashboard.  
+- **Key Definitions**:  
+   - **Opening Price**: The first price of the stock when the market opens.  
+   - **Closing Price**: The last price of the stock when the market closes.  
+   - **Bearish Day**: A trading day where the closing price is lower than the opening price.  
+   - **Bullish Day**: A trading day where the closing price is higher than the opening price.  
 
-### 2. **Model Performance Overview**
-   - **Key Metrics**:
-     - **Accuracy**: Display the model's overall accuracy and any additional metrics (e.g., F1-score, Precision, Recall).
-     - **AUC-ROC Curve**: Provide a graphical representation of the model’s ability to distinguish between the two classes.
-   - **Confusion Matrix**: Show the confusion matrix to assess how well the model performs in predicting the correct class (price up or not).
-   - **Model Evaluation**: Summarize the model's performance and whether it meets the expected outcomes.
+## **2. Performance Analysis**  
+### **2.1. Highest and Lowest Closing Prices**  
+- **Visual**: Annotated line chart with marked high and low points.  
+- **Insights**:  
+   - Identify the dates of the highest and lowest closing prices.  
+   - Contextualize these points with potential events (e.g., earnings announcements, news).  
+   - Compare peaks and troughs to surrounding days for further context.  
 
-### 3. **Prediction vs. Actual Outcomes**
-   - **Predicted vs. Actual**:
-     - Provide a plot comparing the predicted values to the actual stock movements (e.g., scatter plot or line chart).
-     - Highlight any notable patterns, such as periods when the model's predictions were more accurate.
-   - **Trend Analysis**:
-     - Explore how the predictions align with actual price movements over time.
-     - Discuss whether certain periods (e.g., high volatility or market news) led to more accurate or less accurate predictions.
+### **2.2. Frequency of Bullish and Bearish Days**  
+- **Visual**: Pie chart or bar chart comparing counts of bullish and bearish days.  
+- **Metric**: Count instances where the closing price was higher or lower than the opening price.  
+- **Insights**:  
+   - Understand overall market sentiment.  
+   - Analyze trends over time by adding temporal elements (e.g., monthly or yearly trends).  
 
-### 4. **Feature Importance and Insights**
-   - **Feature Impact on Predictions**:
-     - Present a bar chart or table that ranks the most important features (e.g., past closing price, trading volume, etc.) used by the model to make predictions.
-   - **Interpretation of Features**:
-     - Explain how certain features influence the model’s decision-making. For example, "Higher trading volume tends to correlate with increased price fluctuations, making it a significant feature in predicting price increases."
-   - **Visualizing Feature Interactions**:
-     - Use partial dependence plots (PDPs) or SHAP (SHapley Additive exPlanations) values to show how changes in key features affect predicted probabilities.
+### **2.3. Daily Percentage Price Changes**  
+- **Formula**: \(((\text{Close} - \text{Open}) / \text{Open}) \times 100\)  
+- **Visual**: Histogram or box plot showing distribution of percentage changes.  
+- **Insights**:  
+   - Determine the average daily returns and their variability.  
+   - Highlight days with extreme percentage changes using annotations.  
+   - Include metrics like the median daily return to minimize outlier influence.  
 
-### 5. **Patterns and Trends in Stock Price Movements**
-   - **Seasonality or Time-of-Day Effects**:
-     - Explore whether there are certain times (e.g., monthly, weekly) when the model performs better or when price increases are more frequent.
-     - Show how the predictions vary based on the time of year or specific market conditions (e.g., "Stock price tends to increase more often during earnings season").
-   - **Market Volatility**:
-     - Analyze the model’s performance during periods of high volatility (e.g., during major stock market events or external news). Highlight whether volatility impacts prediction accuracy.
-     - Display charts to visually indicate market volatility against predicted price movements.
+## **3. Seasonal or Temporal Analysis**  
+### **3.1. Best and Worst Performing Months/Days of the Week**  
+- **Visual**: Bar chart of average closing prices by month or day of the week.  
+- **Insights**:  
+   - Identify consistent market patterns based on the calendar period.  
+   - Incorporate ranges or standard deviations to show variability.  
+   - Overlay contextual events (e.g., holidays, quarterly reports) to identify correlations with performance.  
 
-### 6. **Model's Ability to Predict Price Movements**
-   - **Accuracy Over Time**:
-     - Show how the model's accuracy changes over time with respect to the test set.
-     - Include a rolling accuracy graph or time-series visualization showing whether predictions are more reliable during certain periods.
-   - **Predictions in Real-Time Market Conditions**:
-     - Discuss how well the model adapts to real-time changes in the market and whether its predictions reflect current market conditions.
+### **3.2. Rolling Performance Metrics**  
+- **Visual**: Line chart with 7-day and 30-day rolling averages for prices and volume overlaid on raw prices.  
+- **Insights**:  
+   - Identify short- and medium-term trends in stock performance.  
+   - Highlight periods of significant deviation from rolling averages.  
 
-### 7. **Recommendations and Next Steps**
-   - **Model Improvement**:
-     - Offer suggestions for improving the model based on observed trends (e.g., "Incorporating more technical indicators such as moving averages could enhance model accuracy during volatile market periods").
-   - **Data Refinements**:
-     - Suggest further feature engineering or data sources that could provide more meaningful insights (e.g., adding macroeconomic indicators or sentiment analysis).
-   - **Actionable Insights for Stakeholders**:
-     - Provide actionable insights that stakeholders can use to guide decision-making based on the model's predictions (e.g., "Investors could consider using the model’s predictions to make more informed decisions during high-volume trading periods").
+## **4. Volume Patterns**  
+- **Visual**: Line or bar chart showing trading volume over time.  
+- **Insights**:  
+   - Analyze how trading activity fluctuates over different periods (e.g., high-volume days, market events).  
+   - Correlate volume spikes with bullish or bearish trends to assess potential drivers.  
 
-### 8. **Conclusion**
-   - **Summary of Insights**:
-     - Summarize the key insights derived from the dashboard. Focus on the effectiveness of the model, the patterns in stock price movements, and how stakeholders can leverage these findings.
-   - **Model's Potential**:
-     - Conclude with an assessment of how the model can be used for real-time predictions and its potential for future enhancements.
 
-### 9. **Appendix (Optional)**
-   - **Technical Details**:
-     - Provide any necessary technical details, such as how the model was built, hyperparameters used, or additional charts that may support deeper analysis.
-   - **Glossary**: 
-     - Define key terms or concepts that are relevant to understanding the dashboard (e.g., AUC, F1-score, volatility).
+## **5. Refinements and Additional Insights**  
+### **5.1. Refinements to Key Metrics**  
+- Contextualize peaks and troughs with potential reasons (e.g., major announcements, macroeconomic factors).  
+- Analyze bullish/bearish trends by temporal periods for better segmentation.  
+- Add contextual overlays to existing visuals to improve clarity.  
+
+### **5.2. Expanding Insights**  
+- Include supplementary metrics such as median price changes or variability by season.  
+- Highlight extreme outliers in trends with annotations for deeper analysis.  
+
+---
+
+## **6. Conclusion**  
+- **Summary of Findings**:  
+   - Recap key insights derived from performance and temporal analyses.  
+   - Emphasize any patterns or trends of interest to stakeholders.  
+- **Recommendations**:  
+   - Provide actionable suggestions based on findings (e.g., "Monitor trading volume during high-volatility periods to better predict price swings.")  
+   - Suggest next steps for refining the dashboard (e.g., incorporating sentiment analysis or additional financial indicators).  
+
