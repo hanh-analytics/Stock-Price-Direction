@@ -1,14 +1,5 @@
 # Dashboard 
 
-This folder contains all materials related to the **Stock Price Dashboard** and its associated figures, designed to provide comprehensive insights into stock market trends and patterns. The contents are organized as follows:  
+This folder contains individual figures generated from the analysis of the stock price prediction data. These figures offer visual insights and patterns from the data, but the full interactive dashboard, which includes dynamic features and interactivity, is not included here.
 
-1. **Dashboard File**:  
-   - A fully interactive dashboard created to visualize predictions, performance metrics, and temporal patterns of stock prices.  
-   - Includes tools to explore trends in closing prices, percentage changes, and trading volume.  
-
-2. **Separate Figures**:  
-   - High-quality standalone images of individual visualizations extracted from the dashboard.  
-   - Each figure highlights specific metrics such as highest and lowest closing prices, daily percentage changes, and seasonal trends.  
-   - These images are optimized for easy integration into presentations, reports, or further analysis.    
-
-This folder serves as a comprehensive resource for stakeholders and analysts to understand and communicate key insights derived from stock market data.
+**Important Note**: To view and interact with the full dashboard, please open the provided Jupyter notebook. The notebook contains the complete code and setup to run the interactive Plotly Dash application. The individual figures in this folder can serve as static representations of the app's outputs.
