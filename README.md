@@ -50,7 +50,7 @@ The data files are available in:
 ## Project Structure
 - `data/`: Contains raw and processed datasets.
 - `notebooks/`: Jupyter notebooks for exploratory data analysis and model development.
-- `dashboards`: Interactive dashboards for performance and seasonal/temporal analysis.
+- `visualization/`: Interactive dashboards for performance and seasonal/temporal analysis.
 - `reports/`: Project documentation and reports.
 
 ## Approach
