@@ -117,6 +117,9 @@ The data files are available in:
 6. **Run the cells in the notebook**:
     - Execute the cells one by one in Jupyter to perform data preprocessing, model training, hypothesis testing, and dashboard creation.
 
+# License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/hanh-analytics/Stock-Price-Direction/blob/65d280b6e67010d3935dba556e009784b49216e1/LICENSE) file for details.
+
 
 ## Results
 - Contributed by both the binary classification model and hypothesis testing, there is no strong or clear trend in the daily price direction of the stock. 
